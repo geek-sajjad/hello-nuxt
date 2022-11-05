@@ -1,0 +1,5 @@
+{
+  "vetur.completion.autoImport": true,
+  "vetur.experimental.templateInterpolationService": false,
+  "editor.formatOnSave": true
+}

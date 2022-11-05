@@ -1,5 +1,8 @@
 <template>
-  <Tutorial />
+  <div>
+    <a href="/users">Users</a>
+    <nuxt-link to="/users">users</nuxt-link>
+  </div>
 </template>
 
 <script>
