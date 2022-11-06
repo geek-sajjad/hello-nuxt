@@ -7,5 +7,10 @@
 <script>
 export default {
   name: 'IndexPage',
+  async asyncData(context) {
+    const res = await context.app.$axios.$get('http://icanhazip.com')
+    console.log(context)
+    return res
+  },
 }
 </script>
